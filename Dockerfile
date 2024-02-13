@@ -30,7 +30,6 @@ ADD . /app
 # Without these permissions you see the errors "unable to open database file" and
 # "attempt to write to a readonly database", respectively, whenever the app attempts to
 # write to the database.
-RUN python3 manage.py migrate
 RUN chmod g+w /app
 RUN chmod g+w /app/db.sqlite3
 
