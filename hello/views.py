@@ -7,7 +7,7 @@ from hello.models import LogMessage
 
 
 class HomeListView(ListView):
-    """Renders the home page, with a list of all polls."""
+    """Renders the home page, with a list of all log messages."""
 
     model = LogMessage
 
