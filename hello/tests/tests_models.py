@@ -7,7 +7,7 @@ class LogMessageModelTest(TestCase):
 
     def create_logmessage(self, message="This is a test message."):
         """
-        Create and return a LogMessage instance.
+        Create and return a LogMessage instance
         """
         return LogMessage.objects.create(
             message=message,
