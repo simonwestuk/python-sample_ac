@@ -19,6 +19,6 @@ class LogMessageModelTest(TestCase):
         Test the creation og a LogMessage instance.
         """
         log_message = self.create_logmessage()
-        self.assertTrue(isinstance(log_message, LogMessage.model))
+        self.assertTrue(isinstance(log_message, LogMessage))
 
 
